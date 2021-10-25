@@ -1,8 +1,12 @@
 import React from 'react';
 import './App.css';
+import DatePickerPopup from "./DatePickerPopup";
 
 const App = () => {
-  return <div className="container">메인 화면입니다. </div>
+  return (
+    <div className="container">
+    </div>
+  )  
 }
 
 export default App;
