@@ -43,6 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["css-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:6.4.0"],
             ["file-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:6.2.0"],
             ["html-webpack-plugin", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:5.4.0"],
+            ["mini-css-extract-plugin", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:2.4.3"],
             ["react", "npm:17.0.2"],
             ["react-datepicker", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:4.3.0"],
             ["react-dom", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:17.0.2"],
@@ -3087,6 +3088,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["css-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:6.4.0"],
             ["file-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:6.2.0"],
             ["html-webpack-plugin", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:5.4.0"],
+            ["mini-css-extract-plugin", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:2.4.3"],
             ["react", "npm:17.0.2"],
             ["react-datepicker", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:4.3.0"],
             ["react-dom", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:17.0.2"],
@@ -5538,6 +5540,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/mimic-fn-npm-2.1.0-4fbeb3abb4-d2421a3444.zip/node_modules/mimic-fn/",
           "packageDependencies": [
             ["mimic-fn", "npm:2.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["mini-css-extract-plugin", [
+        ["npm:2.4.3", {
+          "packageLocation": "./.yarn/cache/mini-css-extract-plugin-npm-2.4.3-4dd8ad3f8c-bee9d5f5c8.zip/node_modules/mini-css-extract-plugin/",
+          "packageDependencies": [
+            ["mini-css-extract-plugin", "npm:2.4.3"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:2.4.3", {
+          "packageLocation": "./.yarn/__virtual__/mini-css-extract-plugin-virtual-25b1e94889/0/cache/mini-css-extract-plugin-npm-2.4.3-4dd8ad3f8c-bee9d5f5c8.zip/node_modules/mini-css-extract-plugin/",
+          "packageDependencies": [
+            ["mini-css-extract-plugin", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:2.4.3"],
+            ["@types/webpack", null],
+            ["schema-utils", "npm:3.1.1"],
+            ["webpack", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:5.59.1"]
+          ],
+          "packagePeers": [
+            "@types/webpack",
+            "webpack"
           ],
           "linkType": "HARD",
         }]

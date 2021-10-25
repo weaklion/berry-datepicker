@@ -1919,6 +1919,7 @@ __metadata:
     css-loader: ^6.4.0
     file-loader: ^6.2.0
     html-webpack-plugin: ^5.4.0
+    mini-css-extract-plugin: ^2.4.3
     react: ^17.0.2
     react-datepicker: ^4.3.0
     react-dom: ^17.0.2
@@ -4006,6 +4007,17 @@ fsevents@~2.3.2:
   version: 2.1.0
   resolution: "mimic-fn@npm:2.1.0"
   checksum: d2421a3444848ce7f84bd49115ddacff29c15745db73f54041edc906c14b131a38d05298dae3081667627a59b2eb1ca4b436ff2e1b80f69679522410418b478a
+  languageName: node
+  linkType: hard
+
+"mini-css-extract-plugin@npm:^2.4.3":
+  version: 2.4.3
+  resolution: "mini-css-extract-plugin@npm:2.4.3"
+  dependencies:
+    schema-utils: ^3.1.0
+  peerDependencies:
+    webpack: ^5.0.0
+  checksum: bee9d5f5c84ebc557bb201be4453003f98b47807153762bbf566b6f5e8071e67b6147f22d36111ecad62fd6d71979e5c6f43989000731c562a409b65ef529e45
   languageName: node
   linkType: hard
 

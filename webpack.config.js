@@ -11,9 +11,10 @@ module.exports = {
   },
   devtool: 'eval-cheap-source-map',
   devServer : {
-    hot : true,
-    overlay : true,
-    writeToDisk : true
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
+    compress: true,
   },
   output: {
     filename : 'bundle.js',
