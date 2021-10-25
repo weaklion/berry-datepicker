@@ -1,8 +1,10 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
+  mode : 'development',
   entry : {
     main : './src/index.js'
   },
@@ -11,10 +13,8 @@ module.exports = {
   },
   devtool: 'eval-cheap-source-map',
   devServer : {
-    static: {
-      directory: path.join(__dirname, 'public'),
-    },
-    compress: true,
+    compress : true,
+    hot : true,
   },
   output: {
     filename : 'bundle.js',
@@ -45,6 +45,7 @@ module.exports = {
   },
   plugins : [
     new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
       template: './public/index.html'
     })
