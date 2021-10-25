@@ -1,10 +1,10 @@
 # berry-datepicker   
 
 ## STACK   
-### WEBPACK     
-### BABEL   
-### #REACT   
-### YARN BERRY   
+##### WEBPACK     
+##### BABEL   
+##### REACT   
+##### YARN BERRY   
 
 ## 실행   
     yarn dev
