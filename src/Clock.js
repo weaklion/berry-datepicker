@@ -48,6 +48,7 @@ const HourHand = styled(Hand)`
   height : 8px;
   left : 20%;
   background : black;
+
   transform : rotate(${(props) => props.hour}deg);
 `;
 const MinHand = styled(Hand)`
@@ -67,15 +68,16 @@ const SecHand = styled(Hand)`
 
 const Clock = () => {
 
-  const [second, setSecond] = useState(0);
-  const [min, setMin] = useState(0);
-  const [hour, setHour] = useState(0);
+  const [second, setSecond] = useState();
+  const [min, setMin] = useState();
+  const [hour, setHour] = useState();
 
   useInterval(() => {
     const now = new Date(); 
     const seconds = (now.getSeconds() / 60) * 360 + 90; //deg
     const mins = (now.getMinutes() /60) * 360 + 90; //deg
     const hours = (now.getHours() / 12) *360 + 90; //deg
+    
     setSecond(seconds);
     setMin(mins);
     setHour(hours);
@@ -95,4 +97,4 @@ const Clock = () => {
   )
 }
 
-export default Clock; 
+export default Clock;
