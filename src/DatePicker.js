@@ -4,11 +4,9 @@ import 'react-datepicker/dist/react-datepicker.css';
 import './DatePicker.scss'
 
 
-
-
 const DatePicker = (props) => {
   return (
-    <div className="relative date-picker">
+    <div className="date-picker">
     
       <DPicker //input
         {...props}

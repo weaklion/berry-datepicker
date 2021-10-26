@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
 import DatePicker from './DatePickerPopup';
+import "tailwindcss/tailwind.css"
 
 
 
 const App = () => {
   return (
-    <div className="container">
+    <div className="w-screen h-screen">
       <DatePicker />
     </div>
   )  

@@ -1,3 +1,81 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+$white : #ffffff;
+$purple : #7953f5;
+$black : #353c46;
+
+
+
+.date-picker {
+  .react-datepicker-wrapper {
+    width : 100%;
+  }
+
+  .react-datepicker__header {
+    background-color: $white;
+    border-bottom: 0;
+  }
+
+  .react-datepicker__navigation {
+    margin-top : 7px;
+  }
+
+  .react-datepicker__current-month {
+    margin-top : 3px;
+  }
+
+  .react-datepicker__day-name {
+    margin-top : 13px;
+  }
+
+  .react-datepicker__month {
+    margin-top : 0;
+  }
+
+  .react-datepicker__day--in-selecting-range,
+  .react-datepicker__day--in-range,
+  .react-datepicker__day--selected 
+  {
+    background: rgba($purple, 0.1) !important;
+  }
+
+  .react-datepicker__day--range-start, 
+  .react-datepicker__day--range-end
+  {
+    border-radius: 9999px;
+    background: $purple !important;
+    color : $white;
+  }
+
+  .react-datepicker__input-container {
+    height : 36px;
+    max-width : 252px;
+    width : 100%;
+    border-radius : 4px;
+    display : flex;
+    align-items : center;
+    background : #fafbfb;
+    border: 1px solid #d0d4dc;
+    color : $black;
+    font-size : 13px;
+    padding-left : 12px;
+    white-space : nowrap;
+    overflow : hidden;
+    margin-bottom : 4px;
+
+    &::before {
+      content : url("./assets/ico-calendar.svg");
+      margin-top : 7px;
+      margin-right : 10px;
+    }
+
+    input {
+      background : #fafbfb;
+    }
+  }
+
+  
+
+}

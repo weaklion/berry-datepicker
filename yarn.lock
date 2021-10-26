@@ -1234,7 +1234,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.4, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.8.3, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7":
+"@babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.8.3, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7":
   version: 7.15.4
   resolution: "@babel/runtime@npm:7.15.4"
   dependencies:
@@ -1322,31 +1322,6 @@ __metadata:
   version: 0.7.5
   resolution: "@emotion/unitless@npm:0.7.5"
   checksum: f976e5345b53fae9414a7b2e7a949aa6b52f8bdbcc84458b1ddc0729e77ba1d1dfdff9960e0da60183877873d3a631fa24d9695dd714ed94bcd3ba5196586a6b
-  languageName: node
-  linkType: hard
-
-"@fluentui/react-component-event-listener@npm:~0.51.6":
-  version: 0.51.7
-  resolution: "@fluentui/react-component-event-listener@npm:0.51.7"
-  dependencies:
-    "@babel/runtime": ^7.10.4
-  peerDependencies:
-    react: ^16.8.0 || ^17
-    react-dom: ^16.8.0 || ^17
-  checksum: 87a09ae6117b1174d8116ab5852776bcd8fd9089e99d219b2f411ac9d56580502851a55b669056e7f7cadc018f7d8ab0ed3e7afaa149b945cc8275139ef93c74
-  languageName: node
-  linkType: hard
-
-"@fluentui/react-component-ref@npm:~0.51.6":
-  version: 0.51.7
-  resolution: "@fluentui/react-component-ref@npm:0.51.7"
-  dependencies:
-    "@babel/runtime": ^7.10.4
-    react-is: ^16.6.3
-  peerDependencies:
-    react: ^16.8.0 || ^17
-    react-dom: ^16.8.0 || ^17
-  checksum: 030380d5ea00234e5aa7e014d4e1d268a3dee2d59a2564e4d6a4083cab9ece84f3f3643a8474b53a18a855a0894e91d33d0e0d756008046d59e750603b5b1557
   languageName: node
   linkType: hard
 
@@ -1524,23 +1499,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@popperjs/core@npm:^2.6.0, @popperjs/core@npm:^2.9.2":
+"@popperjs/core@npm:^2.9.2":
   version: 2.10.2
   resolution: "@popperjs/core@npm:2.10.2"
   checksum: 43c189e3eb6d032433512d94761b54fc7cae15957ca5528008813f887a67b5760b949f30a5141b476be2ba5a6c677c91def150f603d2d3e30b5e97a5ae51474e
-  languageName: node
-  linkType: hard
-
-"@semantic-ui-react/event-stack@npm:^3.1.2":
-  version: 3.1.2
-  resolution: "@semantic-ui-react/event-stack@npm:3.1.2"
-  dependencies:
-    exenv: ^1.2.2
-    prop-types: ^15.6.2
-  peerDependencies:
-    react: ^16.0.0 || ^17.0.0
-    react-dom: ^16.0.0 || ^17.0.0
-  checksum: 3e3a27294e24478d57f324552008975a8c7b2deec9a974f627a75d7bc9fc1257da6c62907cf4684b7cb9b3b1252f5e9b2f312200d5dafcf1f019a645fd21ad0b
   languageName: node
   linkType: hard
 
@@ -2338,13 +2300,13 @@ __metadata:
     mini-css-extract-plugin: ^2.4.3
     moment: ^2.29.1
     node-sass: ^6.0.1
-    postcss: latest
+    postcss: ^8.3.11
+    postcss-loader: ^6.2.0
     react: ^17.0.2
     react-datepicker: ^4.3.0
     react-dom: ^17.0.2
+    react-is: ^17.0.2
     sass-loader: ^12.2.0
-    semantic-ui-css: ^2.4.1
-    semantic-ui-react: ^2.0.4
     style-loader: ^3.3.1
     styled-components: ^5.3.3
     tailwindcss: latest
@@ -2691,7 +2653,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^1.0.4, clsx@npm:^1.1.1":
+"clsx@npm:^1.0.4":
   version: 1.1.1
   resolution: "clsx@npm:1.1.1"
   checksum: ff052650329773b9b245177305fc4c4dc3129f7b2be84af4f58dc5defa99538c61d4207be7419405a5f8f3d92007c954f4daba5a7b74e563d5de71c28c830063
@@ -2916,7 +2878,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:^7.0.1":
+"cosmiconfig@npm:^7.0.0, cosmiconfig@npm:^7.0.1":
   version: 7.0.1
   resolution: "cosmiconfig@npm:7.0.1"
   dependencies:
@@ -3560,13 +3522,6 @@ __metadata:
     signal-exit: ^3.0.3
     strip-final-newline: ^2.0.0
   checksum: fba9022c8c8c15ed862847e94c252b3d946036d7547af310e344a527e59021fd8b6bb0723883ea87044dc4f0201f949046993124a42ccb0855cae5bf8c786343
-  languageName: node
-  linkType: hard
-
-"exenv@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "exenv@npm:1.2.2"
-  checksum: a894f3b60ab8419e0b6eec99c690a009c8276b4c90655ccaf7d28faba2de3a6b93b3d92210f9dc5efd36058d44f04098f6bbccef99859151104bfd49939904dc
   languageName: node
   linkType: hard
 
@@ -4818,13 +4773,6 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"jquery@npm:x.*":
-  version: 3.6.0
-  resolution: "jquery@npm:3.6.0"
-  checksum: 8fd5fef4aa48fd374ec716dd1c1df1af407814a228e15c1260ca140de3a697c2a77c30c54ff1d238b6a3ab4ddc445ddeef9adce6c6d28e4869d85eb9d3951c0e
-  languageName: node
-  linkType: hard
-
 "js-base64@npm:^2.1.8":
   version: 2.6.4
   resolution: "js-base64@npm:2.6.4"
@@ -5032,13 +4980,6 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"keyboard-key@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "keyboard-key@npm:1.1.0"
-  checksum: 8bf7c0d796820a0d4802930ef103339e2ffddf369f441d8e19f0a1d3b841da71a0a4da8c7a5270f4814da54300434f5fc5b3489aae4ae3ba47418ac106b71a64
-  languageName: node
-  linkType: hard
-
 "kind-of@npm:^6.0.2, kind-of@npm:^6.0.3":
   version: 6.0.3
   resolution: "kind-of@npm:6.0.3"
@@ -5112,13 +5053,6 @@ fsevents@~2.3.2:
   dependencies:
     p-locate: ^4.1.0
   checksum: 83e51725e67517287d73e1ded92b28602e3ae5580b301fe54bfb76c0c723e3f285b19252e375712316774cf52006cb236aed5704692c32db0d5d089b69696e30
-  languageName: node
-  linkType: hard
-
-"lodash-es@npm:^4.17.21":
-  version: 4.17.21
-  resolution: "lodash-es@npm:4.17.21"
-  checksum: 05cbffad6e2adbb331a4e16fbd826e7faee403a1a04873b82b42c0f22090f280839f85b95393f487c1303c8a3d2a010048bf06151a6cbe03eee4d388fb0a12d2
   languageName: node
   linkType: hard
 
@@ -6155,6 +6089,20 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"postcss-loader@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "postcss-loader@npm:6.2.0"
+  dependencies:
+    cosmiconfig: ^7.0.0
+    klona: ^2.0.4
+    semver: ^7.3.5
+  peerDependencies:
+    postcss: ^7.0.0 || ^8.0.1
+    webpack: ^5.0.0
+  checksum: 240a807b696ceab4fac88ca713a9264a322af49d021f5056da8d6ce00307d80d8ad429595221498b6c4d44edaf825b54e8d84b4eb7e517fec41e2909d4a5f75d
+  languageName: node
+  linkType: hard
+
 "postcss-modules-extract-imports@npm:^3.0.0":
   version: 3.0.0
   resolution: "postcss-modules-extract-imports@npm:3.0.0"
@@ -6234,7 +6182,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.1.6, postcss@npm:^8.2.1, postcss@npm:^8.2.15, postcss@npm:latest":
+"postcss@npm:^8.1.6, postcss@npm:^8.2.1, postcss@npm:^8.2.15, postcss@npm:^8.3.11":
   version: 8.3.11
   resolution: "postcss@npm:8.3.11"
   dependencies:
@@ -6449,14 +6397,14 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.6.3, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
+"react-is@npm:^16.7.0, react-is@npm:^16.8.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.8.0 || ^17.0.0, react-is@npm:^16.8.6 || ^17.0.0":
+"react-is@npm:^16.8.0 || ^17.0.0, react-is@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
@@ -6473,7 +6421,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"react-popper@npm:^2.2.4, react-popper@npm:^2.2.5":
+"react-popper@npm:^2.2.5":
   version: 2.2.5
   resolution: "react-popper@npm:2.2.5"
   dependencies:
@@ -6962,39 +6910,6 @@ fsevents@~2.3.2:
   dependencies:
     node-forge: ^0.10.0
   checksum: 1fd8fd317dc0b7d713d12d828131ac03c53abf41c4538b263fecd37bbc15688526c631654049ff00806b757ccb85492de6a13d6fefcad5cb54926631e48a76e1
-  languageName: node
-  linkType: hard
-
-"semantic-ui-css@npm:^2.4.1":
-  version: 2.4.1
-  resolution: "semantic-ui-css@npm:2.4.1"
-  dependencies:
-    jquery: x.*
-  checksum: 6351d9bfbeed667a39b9cde08372865bd04612450103aabff174bc46558ad1ac123157cab2716670019abf5a70f56a77d79d082b4043d8893ed350b9a6fed837
-  languageName: node
-  linkType: hard
-
-"semantic-ui-react@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "semantic-ui-react@npm:2.0.4"
-  dependencies:
-    "@babel/runtime": ^7.10.5
-    "@fluentui/react-component-event-listener": ~0.51.6
-    "@fluentui/react-component-ref": ~0.51.6
-    "@popperjs/core": ^2.6.0
-    "@semantic-ui-react/event-stack": ^3.1.2
-    clsx: ^1.1.1
-    keyboard-key: ^1.1.0
-    lodash: ^4.17.21
-    lodash-es: ^4.17.21
-    prop-types: ^15.7.2
-    react-is: ^16.8.6 || ^17.0.0
-    react-popper: ^2.2.4
-    shallowequal: ^1.1.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: db2105ca7ab21a572854f12a0146482bf0124eeb1bdd603603f1f1073d5d3ddffc81db2b4158fc8cc109523f1b6373135caccf02d81e0cec9436830b6fdf6756
   languageName: node
   linkType: hard
 
