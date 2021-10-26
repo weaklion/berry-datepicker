@@ -31,3 +31,6 @@ calendar를 간편하게 나타낼 수 있는 라이브러리.
 본 프로젝트는 datepicker를 보기 좋게 수정함. 
 참조 : 
 https://github.com/Hacker0x01/react-datepicker
+
+## 결과
+![image](https://user-images.githubusercontent.com/19775066/138835888-9f8e67e2-342e-405b-8336-78190b969693.png)
