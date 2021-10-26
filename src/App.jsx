@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import DatePicker from './DatePickerPopup';
+
+
 
 const App = () => {
   return (
     <div className="container">
-      def def def def def
+      <DatePicker />
     </div>
   )  
 }

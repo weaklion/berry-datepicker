@@ -40,12 +40,20 @@ module.exports = {
         options : {
           name : `[name].[ext]`
         }
+      },
+      {
+        test : /\.s[ac]ss$/i,
+        use : [
+          MiniCssExtractPlugin.loader,
+          "css-loader",
+          "sass-loader"
+        ]
       }
     ]
   },
   plugins : [
     new CleanWebpackPlugin(),
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({ filename : 'css/style.css'}),
     new HtmlWebpackPlugin({
       template: './public/index.html'
     })
