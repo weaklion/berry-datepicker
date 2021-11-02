@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-datepicker", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:4.3.0"],
             ["react-dom", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:17.0.2"],
             ["react-is", "npm:17.0.2"],
-            ["sass-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:12.2.0"],
+            ["sass-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:12.3.0"],
             ["style-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:3.3.1"],
             ["styled-components", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:5.3.3"],
             ["tailwindcss", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:2.2.17"],
@@ -3619,7 +3619,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-datepicker", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:4.3.0"],
             ["react-dom", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:17.0.2"],
             ["react-is", "npm:17.0.2"],
-            ["sass-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:12.2.0"],
+            ["sass-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:12.3.0"],
             ["style-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:3.3.1"],
             ["styled-components", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:5.3.3"],
             ["tailwindcss", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:2.2.17"],
@@ -8957,17 +8957,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["sass-loader", [
-        ["npm:12.2.0", {
-          "packageLocation": "./.yarn/cache/sass-loader-npm-12.2.0-ec155d3d53-2b2dd04ab5.zip/node_modules/sass-loader/",
+        ["npm:12.3.0", {
+          "packageLocation": "./.yarn/cache/sass-loader-npm-12.3.0-2fec8d367f-b755e6d5ce.zip/node_modules/sass-loader/",
           "packageDependencies": [
-            ["sass-loader", "npm:12.2.0"]
+            ["sass-loader", "npm:12.3.0"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:12.2.0", {
-          "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-3a8f1422db/0/cache/sass-loader-npm-12.2.0-ec155d3d53-2b2dd04ab5.zip/node_modules/sass-loader/",
+        ["virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:12.3.0", {
+          "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-42a5f0dd15/0/cache/sass-loader-npm-12.3.0-2fec8d367f-b755e6d5ce.zip/node_modules/sass-loader/",
           "packageDependencies": [
-            ["sass-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:12.2.0"],
+            ["sass-loader", "virtual:a3822bd1eebab66acb7859f026debbaed6944ca5337e716c13bb3da101c0562d96d438ddb571928302a8d818dda93df1731ad7cfa42d473e80b10eb13433ae4e#npm:12.3.0"],
             ["@types/fibers", null],
             ["@types/node-sass", null],
             ["@types/sass", null],
