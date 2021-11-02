@@ -96,5 +96,6 @@ const Clock = () => {
     </>
   )
 }
+//sass로 변경
 
 export default Clock;
